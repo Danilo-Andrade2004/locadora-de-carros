@@ -1,4 +1,4 @@
-package com.br.locadoradecarros.dto;
+package com.br.locadoradecarros.cliente.dto;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotEmpty;

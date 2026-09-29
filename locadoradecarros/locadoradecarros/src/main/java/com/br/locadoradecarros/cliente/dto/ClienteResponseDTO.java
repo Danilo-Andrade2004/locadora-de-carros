@@ -1,4 +1,4 @@
-package com.br.locadoradecarros.dto;
+package com.br.locadoradecarros.cliente.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

@@ -1,4 +1,4 @@
-package com.br.locadoradecarros.exception;
+package com.br.locadoradecarros.cliente.exception;
 
 import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.ExceptionHandler;

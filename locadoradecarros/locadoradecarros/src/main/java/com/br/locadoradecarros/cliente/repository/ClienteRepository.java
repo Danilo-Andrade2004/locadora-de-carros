@@ -1,9 +1,10 @@
-package com.br.locadoradecarros.repository;
+package com.br.locadoradecarros.cliente.repository;
 
 import java.util.ArrayList;
 import java.util.List;
 import org.springframework.stereotype.Repository;
-import com.br.locadoradecarros.model.Cliente;
+
+import com.br.locadoradecarros.cliente.model.Cliente;
 
 @Repository
 public class ClienteRepository {

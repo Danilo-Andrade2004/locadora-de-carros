@@ -1,4 +1,4 @@
-package com.br.locadoradecarros.controller;
+package com.br.locadoradecarros.cliente.controller;
 
 import java.util.List;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -6,9 +6,11 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import com.br.locadoradecarros.dto.ClienteRequestDTO;
-import com.br.locadoradecarros.model.Cliente;
-import com.br.locadoradecarros.service.ClienteService;
+
+import com.br.locadoradecarros.cliente.dto.ClienteRequestDTO;
+import com.br.locadoradecarros.cliente.model.Cliente;
+import com.br.locadoradecarros.cliente.service.ClienteService;
+
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 
