@@ -2,12 +2,10 @@ package com.br.locadoradecarros.cliente.service;
 
 import java.util.List;
 import org.springframework.stereotype.Service;
-
 import com.br.locadoradecarros.cliente.dto.ClienteRequestDTO;
 import com.br.locadoradecarros.cliente.mapper.ClienteMapper;
 import com.br.locadoradecarros.cliente.model.Cliente;
 import com.br.locadoradecarros.cliente.repository.ClienteRepository;
-
 import lombok.AllArgsConstructor;
 
 @AllArgsConstructor

@@ -3,7 +3,6 @@ package com.br.locadoradecarros.cliente.mapper;
 import com.br.locadoradecarros.cliente.dto.ClienteRequestDTO;
 import com.br.locadoradecarros.cliente.dto.ClienteResponseDTO;
 import com.br.locadoradecarros.cliente.model.Cliente;
-
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 import org.mapstruct.factory.Mappers;
