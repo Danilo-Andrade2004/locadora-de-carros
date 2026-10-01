@@ -16,10 +16,10 @@ public class CarroService {
 
     public Carro cadastrar(CarroRequestDTO dto){
         Carro carro = CarroMapper.INSTANCE.toEntity(dto);
-        return repository.salvar(carro);
+        return repository.save(carro);
     }
 
     public List<Carro> listar(){
-        return repository.buscarCarro();
+        return repository.findAll();
     }
 }

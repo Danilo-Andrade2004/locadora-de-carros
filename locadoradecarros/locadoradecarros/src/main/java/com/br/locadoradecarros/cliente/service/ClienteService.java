@@ -16,10 +16,10 @@ public class ClienteService {
 
     public Cliente cadastrar(ClienteRequestDTO dto){
         Cliente cliente = ClienteMapper.INSTANCE.toEntity(dto);
-        return repository.salvar(cliente);
+        return repository.save(cliente);
     }
 
     public List<Cliente> listar(){
-        return repository.buscarTodos();
+        return repository.findAll();
     }
 }
